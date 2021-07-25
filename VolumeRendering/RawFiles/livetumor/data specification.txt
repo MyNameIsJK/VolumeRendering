@@ -1,0 +1,4 @@
+1. 512 * 512 *43；voxel size: 0.7285x0.7285x5.0000 mm^3.
+2. 用ImageJ, 将dicom转换为liverTumor.raw(16位/voxel);
+3. 用ImageJ, 将dicom直接转换为liverTumor_8bits.raw.
+4. liverTumor_8bits_bgProcessed.raw是用ImageJ将背景中的床的白色线去掉，以获得更好的backgroundMask.raw.
